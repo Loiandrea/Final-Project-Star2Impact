@@ -1,7 +1,7 @@
 # Sito per la Sensibilizzazione sul Cambiamento Climatico
 
 
-**Prova l'app:** [Global Warming Awareness](https://global-warming-andrea.netlify.app/)
+**Prova l'app:** [Global Warming ] (https://global-warming-andrealoi.netlify.app/)
 
 Questo è il repository del progetto Sito per la Sensibilizzazione sul Cambiamento Climatico, creato da Andrea Loi. Il sito fornisce una panoramica sui dati riguardanti il cambiamento climatico attraverso cinque grafici informativi.
 
