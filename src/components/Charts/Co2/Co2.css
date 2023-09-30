@@ -1,0 +1,123 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .chart-co2 {
+    background-image: url("https://media.istockphoto.com/id/1340519929/it/foto/concetto-che-raffigura-il-problema-delle-emissioni-di-anidride-carbonica-e-il-suo-impatto.jpg?s=612x612&w=0&k=20&c=A9blNhNf6tvMiwZOJpk7BlNhj6e_TzrQDJKNzqLg6d8=");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5%;
+  }
+  
+  .chart-co2 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .custom-chart-co2 {
+    background-color: rgb(87, 86, 86);
+    margin-top: 5%;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+  }
+  
+  .chart-container-co2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+  }
+  
+ 
+  .causes-remedies-co2 {
+    text-align: left;
+    margin-top: 20px;
+    animation: fadeInListItem 5s ease forwards;
+    animation-delay: 0.5s;
+    max-width: 800px;
+    margin-bottom: 5%;
+  }
+  
+  @keyframes fadeInListItem {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .causes-remedies-co2 h3 {
+    font-size: 24px;
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .causes-remedies-co2 p {
+    color: #fff;
+    font-style: normal;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px #ffae00e2;
+    margin-bottom: 5px;
+  }
+  
+  .cause-list-co2,
+  .remedy-list-co2 {
+    padding-left: 20px;
+    white-space: normal;
+  }
+  
+  .cause-list-co2 li,
+  .remedy-list-co2 li {
+    font-size: 14px;
+    margin-bottom: 6px;
+    width: 100%;
+    margin-left: 10%;
+  }
+  
+  .cause-list-co2 strong {
+    font-weight: bold;
+  }
+  
+  
+  @media (max-width: 768px) {
+    
+    .chart-co2 h2 {
+      font-size: 20px;
+    }
+  
+    .causes-remedies-co2 p {
+      font-size: 14px;
+    }
+  
+    
+    .chart-container-co2 {
+      padding: 10px;
+      width: 100%;
+      max-width: none;
+    }
+  }
+  

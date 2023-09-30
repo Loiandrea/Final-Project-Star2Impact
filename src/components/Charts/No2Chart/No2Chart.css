@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .no2 {
+    background-image: url("https://www.aeronomie.be/sites/default/files/2021-08/factorysmoke-pollution-industry-free-use.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-temperature h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .chart-container-no2 {
+    background: rgba(11, 11, 11, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin-top: 10%;
+  }
+  
+  
+  .causes-remedies {
+    text-align: left;
+    margin-top: 20px;
+    animation: fadeInListItem 5s ease forwards;
+    animation-delay: 0.5s;
+    max-width: 800px;
+  }
+  
+  @keyframes fadeInListItem {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .causes-remedies h3 {
+    font-size: 28px;
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .cause-list,
+  .remedy-list {
+    padding-left: 20px;
+    white-space: normal;
+  }
+  
+  .cause-list li,
+  .remedy-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .cause-list strong {
+    font-weight: bold;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .chart-container-no2 {
+      margin-top: 10%;
+    }
+  
+    .chart-temperature h2 {
+      font-size: 20px;
+    }
+  
+    .cause-list li,
+    .remedy-list li {
+      font-size: 16px;
+    }
+  }
+  

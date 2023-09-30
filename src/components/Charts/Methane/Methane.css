@@ -1,0 +1,119 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  .methane-chart {
+    background-image: url("https://media.istockphoto.com/id/906720020/photo/science-concept-methane-or-ammonium-molecules-3d-rendered-illustration.jpg?s=612x612&w=0&k=20&c=f9d0UtqNI96YHxMItbZz4VonfQmjPf922fSLJlX5Ufk=");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: rgb(23, 22, 22);
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  ì
+  
+  .chart-temperature h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .chart-container-methane {
+    margin-top: 5%;
+    background: rgb(5, 5, 5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  /* Stile per le liste di cause e rimedi */
+  .causes-remedies-methane {
+    text-align: left;
+    margin-top: 20px;
+    animation: fadeInListItem 5s ease forwards;
+    animation-delay: 0.5s;
+    max-width: 800px;
+  }
+  
+  @keyframes fadeInListItem {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .causes-remedies-methane h3 {
+    font-size: 24px;
+    background-color: #f3b006;
+    color: #0a2afacf;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #fdfdfc;
+    margin-top: 20px;
+    list-style: none;
+    max-width: 750px;
+  }
+  
+  .causes-remedies-methane p {
+    color: rgba(6, 22, 251, 0.727);
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #f3b006;
+  }
+  
+  .causes-remedies-methane li,
+  .remedy-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    list-style: none;
+    max-width: 750px;
+    margin-bottom: 5%;
+  }
+  
+  .cause-list strong {
+    font-weight: bold;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .chart-temperature h2 {
+      font-size: 20px;
+    }
+  
+    .chart-container-methane {
+      border: 1px solid red;
+      margin-top: 10%; 
+      padding: 10px;
+      width: 90%; 
+    }
+    .causes-remedies-methane h3 {
+        font-size: 20px; 
+        max-width: 90%; 
+        margin-left: auto; 
+        margin-right: auto; 
+      }
+  
+    .causes-remedies-methane li,
+    .remedy-list li {
+      font-size: 14px; 
+      margin-bottom: 6px;
+    }
+  }
+  

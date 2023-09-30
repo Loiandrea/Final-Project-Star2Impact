@@ -1,0 +1,68 @@
+
+.home {
+  background-image: url('https://media.istockphoto.com/id/1342229191/it/foto/un-lago-a-forma-di-continenti-del-mondo-in-mezzo-alla-natura-incontaminata-una-metafora-del.jpg?s=612x612&w=0&k=20&c=O7OXHyOjSYxJPL2sEz1GjFJuhiJDhGRlsuwONFfj-HI='); /* Percorso relativo all'immagine di sfondo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff; 
+}
+
+
+.title {
+  color: rgb(250, 249, 249);
+  font-size: 36px; 
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lobster Two', cursive;
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: fadeIn 3s ease-in-out forwards;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+
+.text {
+  color: white;
+  font-size: 25px; 
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lobster Two', cursive;
+  animation: fadeIn 3s ease-in-out forwards;
+  margin-bottom: 5%;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px; 
+    margin: 2% auto; 
+    margin-top: -50%;
+  }
+
+  .home {
+    height: 250vh; 
+  }
+
+  .text {
+    font-size: 18px; 
+    text-align: center; 
+  }
+
+  
+}

@@ -1,0 +1,113 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .chart-temperature {
+    background-image: url("https://grandenapoli.it/wp-content/uploads/2019/05/maggio-2022-caldo-1-875x600-1-875x600.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+    overflow-x: hidden; 
+    border: 1px solid red;
+  }
+  .custom-chart {
+    max-width: 800px; /* Aumenta la larghezza massima del grafico */
+  }
+  
+  
+  .chart-temperature h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .custom-chart-temperature {
+    border: 1px solid red;
+    margin-top: 5%;
+    width: 100%;
+    width: 800px; /* Aumenta la larghezza massima del contenitore del grafico */
+    height: 300px;
+  }
+  
+  
+  .chart-container-temperature {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+  }
+  
+  
+  .causes-remedies-temperature {
+    text-align: left;
+    margin-top: 20px;
+    animation: fadeInListItem 5s ease forwards;
+    animation-delay: 0.5s;
+    max-width: 800px;
+  }
+  
+  @keyframes fadeInListItem {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .causes-remedies-temperature h3 {
+    font-size: 20px;
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .causes-remedies-temperature p {
+    color: rgb(246, 246, 249);
+    font-style: normal;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px #010101; 
+    margin-bottom: 5%;
+    margin-right: 20%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster Two', cursive;
+
+  }
+  
+  .cause-list-temperature,
+  .remedy-list-temperature {
+    padding-left: 20px;
+    white-space: normal;
+  }
+  
+  .cause-list-temperature li,
+  .remedy-list-temperature li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .cause-list-temperature strong {
+    font-weight: bold;
+  }
+  
